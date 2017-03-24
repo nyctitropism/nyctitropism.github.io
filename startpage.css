@@ -1,3 +1,11 @@
+/*@font-face {
+	font-family: runescape;
+	src: url (runescape_uf), format(truetype);
+	font-weight:normal;
+	font-style:normal;
+}
+*/
+
 
  body{
 	font-family: "Comic Sans MS", "Comic Sans", cursive; /* no .ttf */
@@ -55,3 +63,25 @@ div{
     left: 900px;
     top: 300px;
 } 
+/*
+#googlesearch 
+
+{
+	
+	position:absolute;
+	left: 50px;
+	top: 50px;
+}
+
+*/
+
+.googlesearch[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
