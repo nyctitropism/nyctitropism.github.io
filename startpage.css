@@ -1,27 +1,28 @@
-@font-face {
-	font-family: runescape;
-	src: url (runescape_uf.tff), format(truetype);
-	font-weight:normal;
-	font-style:normal;
-}
-
-
 
  body{
-	font-family: runescape; /* no .ttf */
+	font-family: "Comic Sans MS", "Comic Sans", cursive; /* no .ttf */
 }
 
 
 h3{ width: 150px;
-    border: 5px groove green;
+    border: 0px groove green;
     padding: 20px;
+	margin: 0px;
 
-margin: 0px;}
+	-moz-box-shadow: inset 0 0 50px #A2BCDD;
+	-webkit-box-shadow:  inset 0 0 50px #A2BCDD;
+	box-shadow:  inset 0 0 50px #A2BCDD;
+	
+
+
+
+}
 
 p { width: 170px;
 border: 0px groove blue;
 padding:0 px;
 margin: 0px;
+
 
 }
 
@@ -54,5 +55,3 @@ div{
     left: 900px;
     top: 300px;
 } 
-
-
